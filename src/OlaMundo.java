@@ -26,9 +26,6 @@ public class OlaMundo extends HttpServlet {
 		if(p1.trim().length()==0) {
 			req.getRequestDispatcher("index.jsp?erro=ERRO NO NOME").forward(req, resp);
 			
-		//	out.println("<b>Invalid Login Info.</b><br>");
-         //           rd = req.getRequestDispatcher("/ola-mundo.jsp");
-            //        rd.include(req, resp);
 		}
 		else {
 			req.getRequestDispatcher("benvindo.jsp?nome=" + p1.toUpperCase()).forward(req, resp);
