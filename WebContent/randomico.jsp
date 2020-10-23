@@ -5,9 +5,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Gerador de Números</title>
 </head>
 <body>
+    <h1>Gerador de Número Randomico</h1>
 	<% java.util.Random geradorDeNumeros = new Random(); %>
 	<%= geradorDeNumeros.nextInt(100) %>
 </body>
