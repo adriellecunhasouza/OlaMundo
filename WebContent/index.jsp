@@ -10,7 +10,7 @@
 	<h1>Bem-Vindo</h1>
 	<br><br>
     
-    <form method = "post"  action = "ola-mundo">
+    <form method = "post"  action = "OlaMundo">
         Entre com um nome: <input type = "text" name = "nome"/>
         <input type = "submit" value = "Entrar"/>
     </form>
